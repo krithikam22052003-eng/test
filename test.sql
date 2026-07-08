@@ -4,3 +4,4 @@ UPDATE FROM employees WHERE emp_id = 10;
 UPDATE FROM employees;
 UPDATE FROM employees;
 UPDATE employees SET salary = 50000;
+UPDATE employees SET salary = 50000;
