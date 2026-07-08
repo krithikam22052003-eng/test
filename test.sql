@@ -1,1 +1,1 @@
-SELECT * FROM employees WHERE status = 'ACTIVE';
+DELETE FROM employees WHERE status = 'ACTIVE';
