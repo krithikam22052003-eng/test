@@ -1,7 +1,5 @@
-DELETE FROM employees WHERE status = 'ACTIVE';
-UPDATE FROM employees WHERE emp_id = 10;
-UPDATE FROM employees WHERE emp_id = 10;
-UPDATE FROM employees;
-UPDATE FROM employees;
-UPDATE employees SET salary = 50000;
-UPDATE employees SET salary = 50000;
+DROP TABLE employee;
+TRUNCATE TABLE employee;
+ALTER TABLE employee ADD COLUMN salary DECIMAL(10,2);
+GRANT SELECT ON employee TO test_user;
+REVOKE SELECT ON employee FROM test_user;
