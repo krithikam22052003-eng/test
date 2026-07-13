@@ -1,1 +1,1 @@
-RExPUCBURVJTIChzYWxhcnkgPSA1MDAwMCk7
+UPDATE employees WHERE salary = 50000;
