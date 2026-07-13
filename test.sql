@@ -1,1 +1,1 @@
-UPDATE employees WHERE salary = 50000;
+DELETE employees;
